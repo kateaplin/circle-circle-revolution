@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CCRCircleView.h"
 
 @interface CCRViewController : UIViewController
 
