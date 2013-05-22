@@ -7,15 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Circle.h"
 #import "Model.h"
+#import "CCRCircleView.h"
 
 @interface CCRViewController : UIViewController
 {
-    int circlePercent;
+    float circlePercent;
     CGRect circleFrame;
     NSArray* currentFraction;
-    Circle* currentCircle;
+    UILabel* fractionLabel;
+    UILabel* scoreLabel;
+    CCRCircleView* currentCircle;
     NSTimer* timer;
     Model* model;
     int score;
@@ -24,7 +26,7 @@
 -(void) startTimer;
 -(void) updateCircle;
 -(void) newObject;
--(Circle*) newCircle;
+-(CCRCircleView*) newCircle;
 -(void) scoreTap;
 -(void) touchesBegan:(NSSet*) touches withEvent:(UIEvent*) event;
 
