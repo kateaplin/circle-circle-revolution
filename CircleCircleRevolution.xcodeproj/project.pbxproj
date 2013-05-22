@@ -19,6 +19,7 @@
 		450CC363174D4541000D3F8D /* CCRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450CC362174D4541000D3F8D /* CCRViewController.m */; };
 		450CC366174D4541000D3F8D /* CCRViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 450CC364174D4541000D3F8D /* CCRViewController_iPhone.xib */; };
 		450CC369174D4541000D3F8D /* CCRViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 450CC367174D4541000D3F8D /* CCRViewController_iPad.xib */; };
+		6F4F2D50174D603B00FCFE0C /* CCRCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4F2D4F174D603B00FCFE0C /* CCRCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		450CC362174D4541000D3F8D /* CCRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCRViewController.m; sourceTree = "<group>"; };
 		450CC365174D4541000D3F8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCRViewController_iPhone.xib; sourceTree = "<group>"; };
 		450CC368174D4541000D3F8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCRViewController_iPad.xib; sourceTree = "<group>"; };
+		6F4F2D4E174D603B00FCFE0C /* CCRCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRCircleView.h; sourceTree = "<group>"; };
+		6F4F2D4F174D603B00FCFE0C /* CCRCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				450CC359174D4541000D3F8D /* CCRAppDelegate.m */,
 				450CC361174D4541000D3F8D /* CCRViewController.h */,
 				450CC362174D4541000D3F8D /* CCRViewController.m */,
+				6F4F2D4E174D603B00FCFE0C /* CCRCircleView.h */,
+				6F4F2D4F174D603B00FCFE0C /* CCRCircleView.m */,
 				450CC364174D4541000D3F8D /* CCRViewController_iPhone.xib */,
 				450CC367174D4541000D3F8D /* CCRViewController_iPad.xib */,
 				450CC350174D4541000D3F8D /* Supporting Files */,
@@ -181,6 +186,7 @@
 				450CC356174D4541000D3F8D /* main.m in Sources */,
 				450CC35A174D4541000D3F8D /* CCRAppDelegate.m in Sources */,
 				450CC363174D4541000D3F8D /* CCRViewController.m in Sources */,
+				6F4F2D50174D603B00FCFE0C /* CCRCircleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +319,7 @@
 				450CC36E174D4541000D3F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
