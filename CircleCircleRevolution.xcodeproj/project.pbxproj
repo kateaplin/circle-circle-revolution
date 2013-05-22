@@ -19,6 +19,8 @@
 		450CC363174D4541000D3F8D /* CCRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450CC362174D4541000D3F8D /* CCRViewController.m */; };
 		450CC366174D4541000D3F8D /* CCRViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 450CC364174D4541000D3F8D /* CCRViewController_iPhone.xib */; };
 		450CC369174D4541000D3F8D /* CCRViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 450CC367174D4541000D3F8D /* CCRViewController_iPad.xib */; };
+		450CC374174D4A81000D3F8D /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 450CC373174D4A81000D3F8D /* Circle.m */; };
+		450CC377174D4F47000D3F8D /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 450CC376174D4F47000D3F8D /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		450CC362174D4541000D3F8D /* CCRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCRViewController.m; sourceTree = "<group>"; };
 		450CC365174D4541000D3F8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCRViewController_iPhone.xib; sourceTree = "<group>"; };
 		450CC368174D4541000D3F8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCRViewController_iPad.xib; sourceTree = "<group>"; };
+		450CC372174D4A81000D3F8D /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		450CC373174D4A81000D3F8D /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		450CC375174D4F47000D3F8D /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		450CC376174D4F47000D3F8D /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				450CC359174D4541000D3F8D /* CCRAppDelegate.m */,
 				450CC361174D4541000D3F8D /* CCRViewController.h */,
 				450CC362174D4541000D3F8D /* CCRViewController.m */,
+				450CC372174D4A81000D3F8D /* Circle.h */,
+				450CC373174D4A81000D3F8D /* Circle.m */,
+				450CC375174D4F47000D3F8D /* Model.h */,
+				450CC376174D4F47000D3F8D /* Model.m */,
 				450CC364174D4541000D3F8D /* CCRViewController_iPhone.xib */,
 				450CC367174D4541000D3F8D /* CCRViewController_iPad.xib */,
 				450CC350174D4541000D3F8D /* Supporting Files */,
@@ -181,6 +191,8 @@
 				450CC356174D4541000D3F8D /* main.m in Sources */,
 				450CC35A174D4541000D3F8D /* CCRAppDelegate.m in Sources */,
 				450CC363174D4541000D3F8D /* CCRViewController.m in Sources */,
+				450CC374174D4A81000D3F8D /* Circle.m in Sources */,
+				450CC377174D4F47000D3F8D /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
