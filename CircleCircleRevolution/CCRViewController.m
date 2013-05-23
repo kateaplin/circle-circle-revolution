@@ -126,7 +126,8 @@
     float fracValue = (float)numerator/denominator;
     scoreIncrease = fabsf(fracValue*100 - circlePercent);
     score += scoreIncrease;
-
+    [currentCircle setFeedback:fracValue*100]; // sets the feedback
+    [currentCircle update:circlePercent]; // updates the view to include the "feedback slice"
     
     [self newObject];
 }
