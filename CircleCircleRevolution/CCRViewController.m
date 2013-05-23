@@ -93,11 +93,14 @@
     {
         circlePercent += 0.1;
         [currentCircle update:circlePercent];
+        
+        
     }
     else
     {
         circlePercent = 0;
         [self newObject];
+        
     }
 }
 
@@ -129,8 +132,17 @@
     [currentCircle setFeedback:fracValue*100]; // sets the feedback
     [currentCircle update:circlePercent]; // updates the view to include the "feedback slice"
     
+   
     [self newObject];
 }
+
+
+
+
+
+
+
+
 
 -(void) touchesBegan:(NSSet*) touches withEvent:(UIEvent *) event
 {
