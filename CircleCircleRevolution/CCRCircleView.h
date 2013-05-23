@@ -11,8 +11,13 @@
 @interface CCRCircleView : UIView
 {
     float percent;
+    UIColor* color;
+    float feedback;
 }
 
 -(void) update: (float) per;
+-(void) setColor: (UIColor*) newColor;
+-(void) setFeedback: (float) newFeedback;
+
 
 @end
