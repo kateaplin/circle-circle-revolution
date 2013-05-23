@@ -131,14 +131,31 @@
     score += scoreIncrease;
     [currentCircle setFeedback:fracValue*100]; // sets the feedback
     [currentCircle update:circlePercent]; // updates the view to include the "feedback slice"
-    
-   
-    [self newObject];
+    [timer invalidate];
+    [self showHideView];
+    [self startTimer];
+
+    //[self newObject];
 }
 
 
 
-
+-(void)showHideView
+{
+    //[timer invalidate];
+    
+    CCRCircleView* finalCircle = [self newCircle];
+    [finalCircle setFeedback:25.0];
+    [finalCircle update:circlePercent];
+    [UIView animateWithDuration:1.0
+     delay:0.0
+                        options:UIViewAnimationOptionCurveEaseIn
+                     animations:^{
+                         currentCircle.alpha = 0.0;
+                     }
+                     completion:^(BOOL finished){[self newObject];}];
+    //[self startTimer];
+}
 
 
 
